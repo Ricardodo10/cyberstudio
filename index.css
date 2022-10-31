@@ -1,0 +1,284 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    border: auto;
+}
+
+
+
+ .container1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;  
+    visibility: inherit;
+   background-image: url(./img/cyberstudio.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+    
+}
+
+header ul{
+    top: 0%;
+    margin-top: 0%;
+    height: 10%;
+    right: 0;
+    left:0;
+    z-index: 30;
+    position: fixed;
+    background-color: black;
+    display: inline;
+    opacity: 0.9;
+}
+header ul li {
+
+    float: right;
+  margin-left: auto;
+}
+header ul li a {
+    display: block;
+  color: lightgrey;
+  padding: 10px 10px;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+ 
+}
+header ul li a :hover{
+    background-color: grey;
+}
+header ul .logo{
+    height: 100%;
+    width: 15%;
+    margin-top: 1%;
+}
+.containerbutton .booking{
+    position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 2;
+  
+
+}
+picture >.container >img{
+width: 62%;
+height: 108vh;
+padding-left: 5%;
+}
+.container{
+  height: 100%;
+
+}
+
+
+
+
+.article1{
+  background-color: #222b79;
+    background-image: linear-gradient(
+90deg
+, #222b79 0%, #a352da 52%, #5f0918 100%);
+height: 120%;
+
+width: 100%;
+top: 98vh;
+position: absolute;
+padding-top: 50px;
+
+
+}
+.carroussel img{
+ 
+  flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    visibility: visible;
+    width: 73%;
+    padding-left: 3%;
+    
+}
+.carre{
+  background-color: rgb(255, 255, 255, 0.8);
+  height: 108vh;
+  width: 60%;
+  z-index: 7;
+  position: relative;
+  left: 30%;
+  bottom: 105.5vh;
+  top: -120vh;
+
+}
+
+
+.text{
+  margin-left: 6%;
+  padding-top: 0.5%;
+  margin-right: 6%;
+
+}
+
+.text h1{
+  font-size: 30px;
+
+}
+.text h2{
+  font-size: medium;
+}
+.text p{
+  color: black;
+  font-weight: 200;
+  font-size: medium;
+  
+  
+}
+.separator{
+  display: inline-block;
+    height: 2px;
+    width: 50px;
+    margin-bottom: 3px;
+    position: relative;
+    background-color: black;
+}
+.carroussel{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 45%;
+  margin-left: 5%;
+  z-index: 5;
+}
+.carroussel img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  
+}
+#hover1:hover{
+  filter: none;
+    -webkit-filter: grayscale(0);
+}
+#hover2:hover{
+  filter: none;
+    -webkit-filter: grayscale(0);
+}
+#hover3:hover{
+  filter: none;
+    -webkit-filter: grayscale(0);
+}
+.buttonleft{
+  width: 7%;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  border: none;
+  height: 50%;
+  margin-left: 6%;
+  margin-top: 2%;
+}
+.buttonright{
+  width: 7%;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  border: none;
+  height: 50%;
+}
+.buttoncarroussel{
+  height: 10vh;
+}
+
+ #backgroundaboutus2{
+  width: 100%;
+  height: 100%;
+  margin-left: -5%;
+  padding-top: 225vh;
+  
+  z-index: 100;
+  opacity: 0.4;
+}
+
+#carreblanc{
+  position: relative;
+  background-color: white;
+  width: 70vh;
+  height: 70vh;
+  z-index: 15;
+  margin-top: -100vh;
+  left: 30%;
+  border-radius: 15%;
+
+}
+#carreblanc h1{
+  color: #3c3c3c;
+  text-align: center;
+  font-weight: 200;
+  font-size: 300%;
+  padding-top: 5%;
+
+}
+#carreblanc p{
+  color: #737373;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: larger;
+}
+#teamsplit2{
+  position: relative;
+  width: 40vh;
+  height: 20vh;
+opacity: 1;
+bottom: 50vh;
+left: 70vh;
+
+}
+#teamsplit{
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+opacity: 1;
+bottom: 100vh;
+left: 35vh;
+
+}
+#setupcote{
+  position: relative;
+  width: 30vh;
+  height: 25vh;
+opacity: 1;
+bottom: 85vh;
+left: 20vh;
+
+}
+#teamtraining{
+  position: relative;
+  width: 50vh;
+  height: 70vh;
+opacity: 1;
+bottom: 80vh;
+right: 35vh;
+
+}
+#play2{
+  position: relative;
+  width: 30vh;
+  height: 20vh;
+opacity: 1;
+bottom: 70vh;
+
+
+}
