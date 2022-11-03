@@ -248,10 +248,10 @@ left: 70vh;
 }
 #teamsplit{
   position: relative;
-  width: 40vh;
+  width: 50vh;
   height: 40vh;
 opacity: 1;
-bottom: 100vh;
+bottom: 80vh;
 left: 35vh;
 
 }
@@ -260,14 +260,14 @@ left: 35vh;
   width: 30vh;
   height: 25vh;
 opacity: 1;
-bottom: 85vh;
+bottom: 75vh;
 left: 20vh;
 
 }
 #teamtraining{
   position: relative;
   width: 50vh;
-  height: 70vh;
+  height: 50vh;
 opacity: 1;
 bottom: 80vh;
 right: 35vh;
@@ -278,7 +278,7 @@ right: 35vh;
   width: 30vh;
   height: 20vh;
 opacity: 1;
-bottom: 70vh;
+bottom: 50vh;
 
 
 }
