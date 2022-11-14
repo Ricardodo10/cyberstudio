@@ -317,7 +317,7 @@ height: 100%;
   justify-content: space-between;
   width: 25%;
   height: 45%;
-  margin-left: 5%;
+  margin-left: 6%;
  top: 15%;
 }
 .offer h2{
@@ -331,7 +331,7 @@ height: 100%;
   z-index: 10;
   display: inline-flex;
   justify-content: space-between;
-  margin-left: 5%;
+  margin-left: 6%;
   margin-top: -1%;
   margin-bottom: 5%;
 }
@@ -347,4 +347,113 @@ height: 100%;
   font-size: medium;
   font-weight: 200;
   text-align: center;
+}
+.addons{
+  margin-top: -35%;
+  background-color: #f5f6f6;
+}
+.addons h1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 300%;
+  padding-top: 5%;
+
+}
+.addons img{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 25%;
+  height: 45%;
+  margin-left: 6%;
+ top: 15%;
+}
+.descri2{
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  top: 15%;
+  z-index: 10;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-top: -1%;
+  margin-bottom: 5%;
+}
+.descri2 .text3 h1{
+  font-size: medium;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 5%;
+ 
+
+}
+.descri2 .text3 p{
+  font-size: medium;
+  font-weight: 100;
+  text-align: center;
+}
+.pricing{
+  background-color: #222b79;
+  background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+  padding-top: 1%;
+}
+.pricing h1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 300%;
+  padding-top: 5%;
+
+}
+.descri3{
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  top: 15%;
+  z-index: 10;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.prices h2{
+  font-size: x-large;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 5%;
+  
+}
+.prices p{
+  font-size: medium;
+  font-weight: 100;
+  text-align: center;
+}
+.prices #hovercolor{
+  list-style: none;
+}
+.prices #hovercolor:hover{
+  background-color: rgb(74, 201, 190);
+  width: 100%;
+ 
+}
+.prices p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.prices button{
+ padding-bottom: 10%;
+ height: 5%;
+ width: 40%;
+ margin-left: 30%;
+ background-color: #3c3c3c;
+ color: white;
+ text-align: center;
+ border-radius: 5%;
+ justify-content: center;
+ 
+ 
+}
+.prices h3{
+text-align: center;
 }
