@@ -7,6 +7,7 @@
     <title>cyberstudio</title>
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/301cd41132.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -145,6 +146,7 @@
             <div class="descri3">
             <div class="prices">
                 <h2>Starter</h2>
+                <div class="separator2"></div>
                <p>Computer with entry-level peripherals powerful enough for all basic needs of a streamer.</p>
                <h3>9€/Session</h3>
                <p id="hovercolor">Entry Level PC</p>
@@ -159,6 +161,7 @@
             <div class="descri3">
             <div class="prices">
                 <h2>Silver</h2>
+                <div class="separator2"></div>
                <p>Computer with mid-level peripherals powerful enough to stream light e-sport games.</p>
                <h3>18€/Session</h3>
                 <p id="hovercolor">Medium Level Computer</p>
@@ -172,6 +175,7 @@
             <div class="descri3">
             <div class="prices">
                 <h2>Gold</h2>
+                <div class="separator2"></div>
                 <p>Computer with high-level peripherals, powerful enough to make your craziest ideas come true.</p>
                 <h3>35€/Session</h3>
                 <p id="hovercolor">High End Computer</p>
@@ -185,139 +189,87 @@
             </div></div>
 
         </div>
-</section>
 
-   
-
-
-    <!--  
-    
-    <section class="Offer">
-        <h1>OUR OFFER</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus porro itaque provident. Ut aut deleniti possimus repellendus nostrum delectus error.</p>
-        <div class="setup1">
-            image
-            <h3></h3>
-            <p></p>
-
-        </div>
-        <div class="setup2">
-            image
-            <h3></h3>
-            <p></p>
-
-
-        </div>
-        <div class="setup3">
-            image
-            <h3></h3>
-            <p></p>
-
-        </div>
-
-    </section>
-    <section class="addons">
-        <h1>OUR ADDONS</h1>
-        <div class="greenscreen">
-            image
-            <h3></h3>
-            <p></p>
-        </div>
-        <div class="podcast">
-            image
-            <h3></h3>
-            <p></p>
-        </div>
-        <div class="team">
-            image
-            <h3></h3>
-            <p></p>
-        </div>
-    </section>
-    <section class="prices">
-        <h1>OUR PRODUCTS PRICING</h1>
-        <div class="price1">
-            <h2>Starter</h2>
-            <p></p>
-            prix
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <button>Book session</button>
-        </div>
-        <div class="price2">
-            <h2>Silver</h2>
-            <p></p>
-            prix
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <button>Book session</button>
-        </div>
-        <div class="price3">
-            <h2>Gold</h2>
-            <p></p>
-            prix
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            <button>book session</button>
-        </div>
-
-    </section>
-    <section class="Contact">
-        <div class="Availabilities">
-            <h1>Our Availabilities</h1>
-            Calendrier
-        </div>
-        <div class="Book-session">
+        <div class="Formcalendar">
+            <div class="left">
             <h1> Book a session</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, velit aliquid? Autem sapiente minus vel.</p>
+            <div class="separator2"></div>
+            <p>Fill in this form and book your first Session First Session is Free</p>
+            <form>
             <input name="name" type="text" placeholder="name">
             <input name="email" type="email" placeholder="email">
             <input name="phone" type="text" placeholder="phone">
             <h2>Setup:</h2>
-            <input type="radio">
+            <select name="Setup" id="Setupselect">
+                <option value="">--Please choose an option--</option>
+                <option value="Startersetup">Starter Setup</option>
+                <option value="Silversetup">Silver Setup</option>
+                <option value="Goldsetup">Gold Setup</option>
+            </select>
             <h2>Addon:</h2>
-            <input type="radio">
+            <select name="Addons" id="Addonselect">
+                <option value="">--Please choose an option--</option>
+                <option value="greenscreen">Greenscreen</option>
+                <option value="podcast">Podcast (Only with Gold Setup)</option>
+            </select>
             <h2>When:</h2>
             <input type="date">
-            <input name="additional info" type="text" placeholder="additional info">
-            <button>Book</button>
-            <div>
-                icone
-                <h2>Phone</h2>
-                <p>numero</p>
+            <textarea name="dzMessage" class="form-control" placeholder="Additional info"></textarea>
+            <br>
+            <input type="submit" value="Book">
+            
+            </form>
+            <div class="icons">
+                <div class="box">
+                    <div class="rond">
+                    <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+32493024244</p>
+                </div>
+                <div class="box">
+                    <div class="rond">
+                    <i class="fa-regular fa-envelope"></i>
+                    </div>
+                    <h3>E-mail</h3>
+                    <p>info@splitscreenbx.be</p>
+
+                </div>
+                <div class="box">
+                    <div class="rond">
+                    <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>Address</h3>
+                    <p>Rue des palais 44,1030 Schaerbeek</p>
+                </div>
             </div>
-            <div>
-                icone
-                <h2>Email</h2>
-                <p>email</p>
+            
             </div>
-            <div>
-                icone
-                <h2>Address</h2>
-                <p>adresse</p>
+            <div class="right">
+                <h1>Our Availabilities</h1>
+                <div class="separator2"></div>
+                <iframe class="seth" src="https://calendar.google.com/calendar/embed?src=16a94448eede02088dbff693ad871e07874add145cd8c0f46069d17baf301e49%40group.calendar.google.com&ctz=UTC" style="border:0;" allowfullscreen></iframe>
+						<div class="logokbc">
+							<p>a Start it @KBC/CBC backed company </p>
+							<img src="./img/logostartit.png" alt="">
+							
+						</div>
             </div>
+            
 
         </div>
-    </section>
-    <footer>
-        <p>copyright</p>
-    </footer>
-     -->
+       
     
+</section>
+<div class="footer">
+    <footer>
+        <span>Copyright © 2023 Split.Screen SRL. all rights reserved.</span>
+    </footer>
+</div>
+   
+
+
+
+
 </body>
 </html>
