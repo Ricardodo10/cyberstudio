@@ -8,3 +8,4 @@ function checkedOnClick(el){
 
     el.checked = true; // Checked clicked checkbox
  }
+ 

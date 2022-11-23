@@ -1,0 +1,1218 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    border: auto;
+  }
+  
+.navbar{
+  position: fixed;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 30;
+  background-color: black;
+  opacity: 0.8;
+  align-items: center;
+
+}
+.navbar .logo{
+  height: 80px;
+  width: 130px;
+  position: absolute;
+  top: 20px;
+  left: 5%;
+}
+
+.navbar .nav-links ul{
+  display: flex;
+  color: white;
+  z-index: 31;
+  right: 0;
+  position: absolute;
+  top: 10%;
+
+}
+.navbar .nav-links ul li{
+  margin: 10px 15px;
+  list-style: none;
+
+}
+  .navbar .nav-links ul a{
+    color: white;
+    text-decoration: none;
+  }
+.navbar .menu-hamburger{
+  display: none;
+  width: 35px;
+  position: fixed;
+  right: 30px;
+
+}
+
+@media screen and (max-width:922px) {
+  .navbar{
+    padding: 0;
+    
+  }
+  .nav-links{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.774);
+  backdrop-filter: blur(7px);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ margin-left: -100%;
+ transition: all 0.5s ease;
+  }
+  .nav-links.mobile-menu{
+    margin-left: 0;
+  }
+  .nav-links ul {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: -10%;
+  bottom: 20%;
+  }
+  .navbar .menu-hamburger{
+    display: flex;
+    position: fixed;
+    right: 10;
+    margin-top: 5%;
+   
+
+    
+  }
+  .navbar .nav-links ul li{
+    margin: 15px 0px;
+  }
+  .navbar .logo{
+    display: none;
+  }
+  
+}
+
+
+
+
+  .containerbutton .booking{
+    position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 2;
+  
+  
+  }
+  
+
+
+
+  .container1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;  
+    visibility: inherit;
+   background-image: url(./img/cyberstudio.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+    
+  }
+  .container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+    width: 40%;
+    height: 80%;  
+    visibility: inherit;
+   background-image: url(./img/aboutusbground.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+   
+  }
+  .aboutus{
+    background-color: #222b79;
+  background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  }
+  .carroussel img{
+
+    flex-wrap: wrap;
+      display: flex;
+      position: relative;
+      background-repeat: no-repeat;
+      visibility: visible;
+      width: 73%;
+      padding-left: 3%;
+      
+    }
+    .carre{
+    background-color: rgb(255, 255, 255, 0.8);
+    height: 80%;
+    width: 50%;
+    z-index: 7;
+    position: absolute;
+   left: 40%;
+   top: 10%;
+    
+    }
+    
+    
+    .text{
+    margin-left: 6%;
+    padding-top: 0.5%;
+    margin-right: 6%;
+    
+    }
+    
+    .text h1{
+    font-size: 30px;
+    
+    }
+    .text h2{
+    font-size: medium;
+    }
+    .text p{
+    color: black;
+    font-weight: 200;
+    font-size: medium;
+    
+    
+    }
+    .separator{
+    display: inline-block;
+      height: 2px;
+      width: 50px;
+      margin-bottom: 3px;
+      position: relative;
+      background-color: black;
+    }
+    .carroussel{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 35%;
+    margin-left: 5%;
+    z-index: 5;
+    }
+    .carroussel img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    
+    }
+    #hover1:hover{
+    filter: none;
+      -webkit-filter: grayscale(0);
+    }
+    #hover2:hover{
+    filter: none;
+      -webkit-filter: grayscale(0);
+    }
+    #hover3:hover{
+    filter: none;
+      -webkit-filter: grayscale(0);
+    }
+    .container2{
+        position: absolute;
+    top: 200%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;  
+    visibility: inherit;
+   background-image: url(./img/cyberstudiobg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+    }
+    .bgblanc{
+        background-color: rgb(255, 255, 255, 0.4);
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: grid;
+        position: absolute;
+        
+    }
+    
+    .carreblanc{
+        height: 60%;
+        width: 30%;
+        background-color: rgb(255, 255, 255, 1);
+        z-index: 4;
+        left:35%;
+        top: 15%;
+        position:relative;
+        border-radius:  15%;
+    }
+    .carreblanc h1{
+        text-align: center;
+        padding-top: 1%;
+        color: black;
+        font-weight: 800;
+    }
+    .carreblanc p{
+        text-align: center;
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+    }
+.img1{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    z-index: 3;
+    width: 20%;
+    height: 20%;  
+    visibility: inherit;
+   background-image: url(./img/play2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+
+}
+.img2{
+background-image: url(./img/teamtraining.png);
+height: 30%;
+width: 30%;
+position: absolute;
+    top: 60%;
+    left: 65%;
+    z-index: 3;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+}
+.img3{
+    background-image: url(./img/setupcoté.jpg);
+    height: 20%;
+width: 20%;
+position: absolute;
+    top: 20%;
+    left: 75%;
+    z-index: 3;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+}
+.img4{
+    background-image: url(./img/teamssplit.JPG);
+    height: 40%;
+width: 30%;
+position: absolute;
+    top: 10%;
+    left: 3%;
+    z-index: 3;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   display: grid;
+}
+
+.offer{
+    background-color: #222b79;
+    background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    top: 300%;
+    
+    
+    }
+    .offer h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: 300%;
+    padding-top: 5%;
+    }
+    .offer h2{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: larger;
+    margin-bottom: 5%;
+    }
+    .separator2{
+    display: inline-block;
+      height: 2px;
+      width: 5%;
+      margin-bottom: 2%;
+      position: relative;
+      background-color: black;
+    margin-left: 47.5%;
+    margin-right: 47.5%;
+    
+    }
+
+    .setups .descri{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 10%;
+        
+        
+
+    }
+    .setups .descri1{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 40%;
+        
+       
+    }
+    .setups .descri2{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 70%;
+        
+      
+    }
+    .setups button{
+      padding-bottom: 10%;
+      height: 5%;
+      width: 40%;
+      margin-left: 30%;
+      background-color: #3c3c3c;
+      color: white;
+      text-align: center;
+      border-radius: 5%;
+      justify-content: center;
+    }
+    .setups .descri img{
+        height: 60%;
+        width: 100%;
+
+    }
+    .setups .descri1 img{
+        height: 60%;
+        width: 100%;
+
+    }
+    .setups .descri2 img{
+        height: 60%;
+        width: 100%;
+    }
+    .setups .descri h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .setups .descri1 h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .setups .descri2 h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .setups .descri p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+    .setups .descri1 p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+    .setups .descri2 p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+    .addons{
+        position: absolute;
+        background-color: lightgrey;
+        height: 100%;
+        width: 100%;
+        top: 410%;
+    }
+    .addons h1{
+        text-align: center;
+        font-weight: 200;
+    font-size: 300%;
+    padding-top: 5%;
+    }
+    .addons2 .descri{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 10%;
+
+    }
+    .addons2 .descri img{
+        height: 60%;
+        width: 100%;
+        
+    }
+    .addons2 .descri h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .addons2 .descri p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+
+
+    .addons2 .descri1{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 40%;
+
+    }
+    .addons2 .descri1 img{
+        height: 60%;
+        width: 100%;
+        
+    }
+    .addons2 .descri1 h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .addons2 .descri1 p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+    .addons2 .descri2{
+        height: 50%;
+        width: 20%;
+        background-color: white;
+        z-index: 5;
+        position: absolute;
+        left: 70%;
+
+    }
+    .addons2 .descri2 img{
+        height: 60%;
+        width: 100%;
+        
+    }
+    .addons2 .descri2 h1{
+        font-size: medium;
+        text-align: center;
+        font-weight: 800;
+    }
+    .addons2 .descri2 p{
+        text-align: center;
+        font-weight: 200;
+        font-size: small;
+    }
+    .pricing{
+        background-color: #222b79;
+        background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+        position: absolute;
+        height: 170%;
+        width: 100%;
+        top: 510%;
+        }
+        .pricing h1{
+        text-align: center;
+        font-weight: 200;
+        font-size: 300%;
+        padding-top: 5%;
+        
+        }
+        .descri3{
+        height: 65%;
+        width: 25%;
+        background-color: white;
+        top: 15%;
+        z-index: 10;
+        display: inline-flex;
+        justify-content: space-between;
+        margin-left: 6%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        }
+        .descri4{
+            position: absolute;
+        left: 38%;
+        height: 65%;
+        width: 25%;
+        background-color: white;
+        top: 22.5%;
+        z-index: 10;
+      
+        }
+        .descri5{
+            position: absolute;
+        left: 69%;
+        height: 65%;
+        width: 25%;
+        background-color: white;
+        top: 22.5%;
+        z-index: 10;
+      
+        }
+        .prices h2{
+        font-size: x-large;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 5%;
+        
+        }
+        .prices p{
+        font-size: medium;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        }
+        .prices .color1{
+          background-color: lightgrey;
+        }
+        
+        .prices #hovercolor{
+          background-color: white;
+        }
+        .prices #hovercolor1{
+          background-color: lightgrey;
+        }
+        .prices #hovercolor:hover{
+        background-color: rgb(74, 201, 190);
+        width: 100%;
+        
+        }
+        .prices #hovercolor1:hover{
+          background-color: rgb(74, 201, 190);
+          width: 100%;
+          
+          }
+        
+        .prices button{
+        padding-bottom: 10%;
+        height: 5%;
+        width: 40%;
+        margin-left: 30%;
+        background-color: #3c3c3c;
+        color: white;
+        text-align: center;
+        border-radius: 5%;
+        justify-content: center;
+        
+        }
+        .prices h3{
+        text-align: center;
+        }
+        .Formcalendar{
+            position: absolute;
+            top: 680%;
+        }
+        .left{
+            float: left;
+            }
+            .left h1,p{
+            text-align: center;
+            padding-top: 5%;
+            }
+            .left p{
+            font-size: medium;
+            }
+            .left h2{
+            padding-left: 5%;
+            font-size: large;
+            font-weight: 200;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            }
+            input[type=text]{
+            width: 30%;
+            margin-top: 5%;
+            margin-right: 10%;
+            height: 30px;
+            margin-left: 10%;
+            }
+            input[type=email]{
+            width: 30%;
+            margin-top: 5%;
+            margin-right: 10%;
+            height: 30px;
+            }
+            #Twitch{
+              left: 42%;
+              position: absolute;
+            }
+            
+            label{
+            position: relative;
+            left: 10%;
+            }
+            input[type=date]{
+            width: 30%;
+            margin-bottom: 5%;
+            height: 30px;
+            position: relative;
+            left: 10%;
+            }
+            .form-control{
+            height: 50px;
+            width: 70%;
+            
+            position: relative;
+            left: 10%;
+            
+            }
+            select{
+            height: 30px;
+            right: 10%;
+            width: 37%;
+            position: relative;
+            left: 10%;
+            }
+            
+            input[type=submit]{
+            height: 50px;
+            width: 20%;
+            margin-left: 10%;
+            margin-top: 5%;
+            position: relative;
+            background-color: #404040;
+            color: white;
+            
+            }
+            .right{
+            float: right;
+            
+            
+            
+            }
+            .right h1{
+            text-align: center;
+            position: relative;
+            
+            padding-top: 5%;
+            margin-left: 5%;
+            
+            
+            }
+            .right .separator2{
+            position: relative;
+            left: 3%;
+            }
+            
+            iframe{
+            position: relative;
+            left: 18%;
+            
+            
+            width: 70%;
+            height: 90vh;
+            }
+            .icons .box{
+                height: 150px;
+                width: 31%;
+                display: inline-block;
+                justify-content: space-evenly;
+              
+              }
+              .icons .box .rond{
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                background-color: whitesmoke;
+                left: 35%;
+                top: 10%;
+                position: relative;
+              }
+              .icons .box .rond i{
+                font-size: 20px;
+                position: inherit;
+                left: 33%;
+                top: 30%;
+              }
+              .icons .box h3{
+                text-align: center;
+              }
+              .icons .box p{
+                text-align: center;
+                font-size: 10px;
+                font-weight: 800;
+                
+              }
+
+.logokbc img{
+    width: 30%;
+    height: 30%;
+    left: 58%;
+    position: relative;
+    
+    }
+    .logokbc p{
+    font-size: small;
+    padding-left: 48%;
+    position: relative;
+    }
+   
+    .footer{
+        width: 100%;
+        height: 50px;
+        background-color: #3c3c3c;
+        color: white;
+        position: absolute;
+        top: 850%   
+        
+        }
+        .footer span{
+        position: absolute;
+        font-size: 15px;
+        bottom: 5%;
+        top: 15px;
+        left: 35%;
+        }
+        
+
+    @media (max-width: 922px){
+
+           .setups .descri{
+            left: 30%;
+            width: 40%;
+           }
+           .setups .descri1{
+            top: 85%;
+            width: 40%;
+            left: 30%;
+           }
+           .setups .descri2{
+            top: 140%;
+            left: 30%;
+            width: 40%;
+           }
+           .addons{
+            top: 510%;
+           }
+           .addons2 .descri{
+            left: 30%;
+            width: 40%;
+           }
+           .addons2 .descri1{
+            top: 80%;
+            width: 40%;
+            left: 30%;
+           }
+           .addons2 .descri2{
+            top: 140%;
+            left: 30%;
+            width: 40%;
+           }
+          .bgmore{
+            background-color: #222b79;
+    background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+          }
+          .bgmore1{
+            position: absolute;
+        background-color: lightgrey;
+        height: 100%;
+        width: 100%;
+        top: 100%;
+          }
+          .pricing{
+            top: 700%;
+          }
+        .descri3{
+            left: 19%;
+            position: absolute;
+            height: 47%;
+            width: 50%;
+        }
+        .descri4{
+            top: 65%;
+            height: 45%;
+            width: 50%;
+            left: 25%;
+        }
+        .descri5{
+            left: 25%;
+            top: 113%;
+            height: 46.5%;
+            width: 50%;
+        }
+        .bgmore2{
+            background-color: #222b79;
+            background-image: linear-gradient(90deg, #222b79 0%, #a352da 52%, #5f0918 100%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 60%;
+
+        }
+        
+            .right{
+              position: relative;
+              right: 25%;
+            }
+            .right h1{
+              margin-left: 30%;
+            }
+            .right .separator2{
+              left: 15%;
+            }
+            .right iframe{
+              width: 100%;
+            }
+            .logokbc img{
+             left: 50%;
+            }
+            .logokbc p{
+              right: 8%;
+              bottom: 40px;
+            }
+            .Formcalendar{
+                top: 975%;
+            }
+            .left{
+               left: 20%;
+               position: relative;
+            }
+            .footer{
+                position:absolute;
+               top: 1200%;
+               height:30px;
+               width:100%;
+                
+              }
+              .carreblanc{
+                width: 50%;
+                left: 25%;
+              }
+              .carreblanc p{
+                font-size: 20px;
+              }
+              .img1{
+                display: none;
+              }
+              .img2{
+                display: none;
+              }
+              .img3{
+                display: none;
+              }
+              .img4{
+                display: none;
+              }
+    }
+    @media (max-width: 425px){
+      .carreblanc{
+        width: 80%;
+        justify-content: center;
+        left: 10%;
+        height: 70%;
+      }
+     .carre{
+      width: 80%;
+      left: 10%;
+     }
+     .container{
+      display: none;
+     }
+     #hover2{
+      display: none;
+     }
+     #hover1, #hover3{
+      width: 100%;
+      left: 10%;
+     }
+     .setups .descri{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri h1{
+font-size: 25px;
+     }
+     .setups .descri p{
+font-size: 20px;
+     }
+     .setups .descri1{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri1 h1{
+      font-size: 25px;
+           }
+           .setups .descri1 p{
+      font-size: 20px;
+           }
+     .setups .descri2{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri2 h1{
+      font-size: 25px;
+           }
+           .setups .descri2 p{
+      font-size: 20px;
+           }
+           .addons2 .descri{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri h1{
+      font-size: 25px;
+           }
+           .addons2 .descri p{
+      font-size: 15px;
+           }
+           .addons2 .descri1{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri1 h1{
+      font-size: 25px;
+           }
+           .addons2 .descri1 p{
+      font-size: 15px;
+           }
+           .addons2 .descri2{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri2 h1{
+      font-size: 25px;
+           }
+           .addons2 .descri2 p{
+      font-size: 15px;
+           }
+           .descri3{
+            width: 80%;
+           left: 4%;
+           }
+           .descri3 h1{
+      font-size: 25px;
+           }
+           .descri3 p{
+      font-size: 15px;
+           }
+           .descri4{
+            width: 80%;
+            left: 10%;
+           }
+           .descri4 h1{
+      font-size: 25px;
+           }
+           .descri4 p{
+      font-size: 15px;
+           }
+           .descri5{
+            width: 80%;
+            left: 10%;
+           }
+           .descri5 h1{
+      font-size: 25px;
+           }
+           .descri5 p{
+      font-size: 15px;
+           }
+           .left{
+            padding-right: 25%;
+           }
+           .right{
+            left: -14%;
+           }
+           
+           .footer span{
+            font-size: 10px;
+           }
+           #Twitch{
+            left: 30%;
+            width: 23%;
+            top: 29%;
+           }
+    }
+    @media (max-width: 320px){
+      #hover1, #hover3{
+        width: 110%;
+        left: -5%;
+    }
+    .box p{
+      font-size: xx-small;
+      
+    }
+    #Twitch{
+      left: 30%;
+      top: 28.5%;
+      width: 25%;
+    }
+    .setups .descri img{
+      height: 50%;
+    }
+    .setups .descri1 img{
+      height: 50%;
+    }
+    .setups .descri2 img{
+      height: 50%;
+    }
+    #hover1, #hover3{
+      height: 90%;
+    }
+  }
+  @media (max-width: 1024px) and (min-width:923px){
+    .descri3{
+      position: absolute;
+      top: 20.5%;
+      z-index: 6;
+      left: 0%;
+      height: 45%;
+
+    }
+    .descri4{
+      height: 45%;
+    }
+    .descri5{
+      height: 45%;
+    }
+    .bgmore2{
+      display: none;
+      
+    }
+    .left{
+      float: none;
+      width: 150%;
+       padding-left: 5%;
+    }
+   
+    .right{
+      
+        right: -50%;
+        width: 150%;
+        position: absolute;
+      
+    }
+    .footer{
+      position: absolute;
+      top: 940%;
+    }
+    .footer span{
+      left: 28%;
+    }
+    #Twitch{
+      top: 28.6%;
+      left: 72.5%;
+      width: 45%;
+    }
+
+  }
+  @media (max-width: 1440px) and (min-width:1025px){
+    .descri3{
+    position: absolute;
+      top: 19.7%;
+      z-index: 6;
+      left: 0%;
+      height: 65%;
+  }
+  .descri4{
+    height: 65%;
+  }
+  .descri5{
+    height: 65%;
+  }
+  .footer{
+    top: 830%;
+    position: absolute;
+  }
+  .left{
+    padding-top: 1%;
+  }
+  .addons2 .descri p{
+    font-size: 12px;
+    margin-top: -5%;
+  }
+  .addons2 .descri1 p{
+    font-size: 12px;
+    margin-top: -5%;
+  }
+  .addons2 .descri2 p{
+    font-size: 12px;
+    margin-top: -5%;
+  }
+  .setups .descri{
+    top: 50%;
+  }
+  .setups .descri1{
+    top: 50%;
+  }
+  .setups .descri2{
+    top: 50%;
+  }
+  .text p{
+   font-size: 15px;
+  }
+}
+@media (max-width: 768px){
+  .left{
+    left: 13%;
+  }
+  .right{
+    right: 21%;
+  }
+  .footer span{
+    left: 27%;
+
+  }
+}
+@media (max-width: 1440px) and (min-width:1270px){
+  .right{
+    right: -125%;
+    width: 150%;
+    position: absolute;
+  }
+}
+@media (max-width: 1269px){
+  
+}
