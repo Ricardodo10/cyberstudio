@@ -948,7 +948,7 @@ position: absolute;
                 display: none;
               }
     }
-    @media (max-width: 425px){
+    @media (max-width: 425px)and (min-width:390px){
       .carreblanc{
         width: 80%;
         justify-content: center;
@@ -1059,9 +1059,7 @@ font-size: 20px;
            .descri5 p{
       font-size: 15px;
            }
-           .left{
-            padding-right: 25%;
-           }
+           
            .right{
             left: -14%;
            }
@@ -1075,6 +1073,135 @@ font-size: 20px;
             top: 29%;
            }
     }
+    @media (max-width:414px) and (min-width:413px){
+      .carreblanc{
+        width: 80%;
+        justify-content: center;
+        left: 10%;
+        height: 70%;
+      }
+     .carre{
+      width: 80%;
+      left: 10%;
+     }
+     .container{
+      display: none;
+     }
+     #hover2{
+      display: none;
+     }
+     #hover1, #hover3{
+      width: 100%;
+      left: 10%;
+     }
+     .setups .descri{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri h1{
+font-size: 25px;
+     }
+     .setups .descri p{
+font-size: 20px;
+     }
+     .setups .descri1{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri1 h1{
+      font-size: 25px;
+           }
+           .setups .descri1 p{
+      font-size: 20px;
+           }
+     .setups .descri2{
+      width: 80%;
+      left: 10%;
+     }
+     .setups .descri2 h1{
+      font-size: 25px;
+           }
+           .setups .descri2 p{
+      font-size: 20px;
+           }
+           .addons2 .descri{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri h1{
+      font-size: 25px;
+           }
+           .addons2 .descri p{
+      font-size: 15px;
+           }
+           .addons2 .descri1{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri1 h1{
+      font-size: 25px;
+           }
+           .addons2 .descri1 p{
+      font-size: 15px;
+           }
+           .addons2 .descri2{
+            width: 80%;
+            left: 10%;
+           }
+           .addons2 .descri2 h1{
+      font-size: 25px;
+           }
+           .addons2 .descri2 p{
+      font-size: 15px;
+           }
+           .descri3{
+            width: 80%;
+           left: 4%;
+           }
+           .descri3 h1{
+      font-size: 25px;
+           }
+           .descri3 p{
+      font-size: 15px;
+           }
+           .descri4{
+            width: 80%;
+            left: 10%;
+           }
+           .descri4 h1{
+      font-size: 25px;
+           }
+           .descri4 p{
+      font-size: 15px;
+           }
+           .descri5{
+            width: 80%;
+            left: 10%;
+           }
+           .descri5 h1{
+      font-size: 25px;
+           }
+           .descri5 p{
+      font-size: 15px;
+           }
+           
+           .right{
+            left: -14%;
+           }
+           .footer{
+            top: 1190%;
+           }
+           
+           .footer span{
+            font-size: 10px;
+           }
+           #Twitch{
+            left: 44.3%;
+            width: 30%;
+            top: 29%;
+           }
+           
+    }
     @media (max-width: 320px){
       #hover1, #hover3{
         width: 110%;
@@ -1085,9 +1212,10 @@ font-size: 20px;
       
     }
     #Twitch{
-      left: 30%;
-      top: 28.5%;
-      width: 25%;
+      width: 30%;
+      left: 45%;
+      top: 33.5%;
+      
     }
     .setups .descri img{
       height: 50%;
@@ -1101,7 +1229,15 @@ font-size: 20px;
     #hover1, #hover3{
       height: 90%;
     }
+    
   }
+  
+    @media (max-width: 342px) and (min-width:321px){
+      #Twitch{
+      top: 30%;
+      }
+    }
+  
   @media (max-width: 1024px) and (min-width:923px){
     .descri3{
       position: absolute;
@@ -1213,6 +1349,565 @@ font-size: 20px;
     position: absolute;
   }
 }
-@media (max-width: 1269px){
+@media (max-width: 650px){
+  .right iframe{
+    width: 80%;
+    display: block;
+    left: 30%;
+  }
+  .left{
+    width: 70%;
+  }
+  .carreblanc{
+    height: 70%;
+  }
+}
+@media (max-width: 520px){
+  .text p{
+    font-size: 14px;
+  }
+  .carreblanc p {
+    font-size: 20px;
+  }
+  .carreblanc{
+    width: 80%;
+    left: 10%;
+  }
+
+}
+@media (max-height: 844px){
+  .right{
+    float: none;
+    left: -15%;
+    position: absolute;
+    top: 96%;
+
+  }
   
+  .left{
+    padding-right: 0%;
+  }
+  .logokbc p{
+    padding-top: 10%;
+  }
+ 
+  .footer{
+    position: absolute;
+ margin-top: 10%;
+    z-index: 10000;
+    top: 1310%;
+  }
+  .footer span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 22%;
+  }
+  .setups .descri{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+  }
+  .setups .descri1{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 100%;
+  }
+  .setups .descri2{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 164%;
+  }
+  .setups .descri p{
+    font-size: 19px;
+  }
+  .setups .descri1 p{
+    font-size: 19px;
+  }
+  .setups .descri2 p{
+    font-size: 19px;
+  }
+  .bgmore{
+    height: 130%;
+    width: 100%;
+    top: 100%;
+    z-index: 3;
+  }
+  .addons{
+    top: 550%;
+  }
+  .addons .descri p{
+    font-size: 19px;
+  }
+  .addons .descri1 p{
+    font-size: 19px;
+  }
+  .addons .descri2 p{
+    font-size: 19px;
+  }
+  .addons2 .descri{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+  }
+  .addons2 .descri1{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 85%;
+  }
+  .addons2 .descri2{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 150%;
+  }
+  .bgmore1{
+    height: 114%;
+    z-index: 1;
+  }
+  .pricing{
+    top: 760%;
+  }
+  .Formcalendar{
+    top: 1085%;
+  }
+  .descri3{
+    z-index: 1000;
+    height: 50%;
+    top: 22%;
+  }
+  .descri4{
+    top: 80%;
+    height: 45%;
+  }
+  .descri5{
+    top: 132%;
+    height: 50%;
+  }
+  .bgmore2{
+    height: 130%;
+  }
+  #Twitch{
+    left: 44%;
+    width: 31%;
+    position: absolute;
+  }
+  iframe{
+    width: 90%;
+  }
+  .descri5 button{
+    height: 10px;
+  }
+  .descri4 button{
+    height: 10px;
+  }
+}
+@media (max-height: 760px){
+  .right{
+    float: none;
+    left: -15%;
+    position: absolute;
+    top: 96%;
+
+  }
+  
+  .left{
+    padding-right: 0%;
+  }
+ 
+  .footer{
+    position: absolute;
+ margin-top: 10%;
+    z-index: 10000;
+    top: 1315%;
+  }
+  .footer span{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 22%;
+  }
+  .setups .descri{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+  }
+  .setups .descri1{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 100%;
+  }
+  .setups .descri2{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 164%;
+  }
+  .setups .descri p{
+    font-size: 17px;
+  }
+  .setups .descri1 p{
+    font-size: 17px;
+  }
+  .setups .descri2 p{
+    font-size: 17px;
+  }
+  .bgmore{
+    height: 130%;
+    width: 100%;
+    top: 100%;
+    z-index: 3;
+  }
+  .addons{
+    top: 550%;
+  }
+  .addons .descri p{
+    font-size: 17px;
+  }
+  .addons .descri1 p{
+    font-size: 17px;
+  }
+  .addons .descri2 p{
+    font-size: 17px;
+  }
+  .addons2 .descri{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+  }
+  .addons2 .descri1{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 85%;
+  }
+  .addons2 .descri2{
+    width: 90%;
+    left: 5%;
+    height: 60%;
+    top: 150%;
+  }
+  .bgmore1{
+    height: 114%;
+    z-index: 1;
+  }
+  .pricing{
+    top: 760%;
+  }
+  .Formcalendar{
+    top: 1085%;
+  }
+  .descri3{
+    z-index: 1000;
+    height: 55%;
+    top: 22%;
+  }
+  .descri4{
+    top: 80%;
+    height: 50%;
+  }
+  .descri5{
+    top: 132%;
+    height: 55%;
+  }
+  .bgmore2{
+    height: 130%;
+  }
+  #Twitch{
+    left: 44%;
+    width: 31%;
+    position: absolute;
+  }
+  iframe{
+    width: 90%;
+  }
+  .descri5 button{
+    height: 10px;
+  }
+  .descri4 button{
+    height: 10px;
+  }
+}
+@media (min-height: 845px){
+  .left{
+    padding-right: -25%;
+  }
+
+}
+@media (max-width: 375px) and (min-width:374px){
+  .carreblanc{
+    width: 80%;
+    justify-content: center;
+    left: 10%;
+    height: 70%;
+  }
+  .carreblanc p{
+    font-size: 17px;
+  }
+ .carre{
+  width: 80%;
+  left: 10%;
+ }
+ .container{
+  display: none;
+ }
+ #hover2{
+  display: none;
+ }
+ #hover1, #hover3{
+  width: 100%;
+  left: 25%;
+  height: 80%;
+ }
+ .setups .descri{
+  width: 80%;
+  left: 10%;
+  height: 55%;
+ }
+ .setups .descri h1{
+font-size: 25px;
+ }
+ .setups .descri p{
+font-size: 16px;
+ }
+ .setups .descri1{
+  width: 80%;
+  left: 10%;
+  top: 101.5%;
+ }
+ .setups .descri1 h1{
+  font-size: 25px;
+       }
+       .setups .descri1 p{
+  font-size: 16px;
+       }
+ .setups .descri2{
+  width: 80%;
+  left: 10%;
+ }
+ .setups .descri2 h1{
+  font-size: 25px;
+       }
+       .setups .descri2 p{
+  font-size: 16px;
+       }
+       .addons2 .descri{
+        width: 80%;
+        left: 10%;
+       }
+       .addons2 .descri h1{
+  font-size: 25px;
+       }
+       .addons2 .descri p{
+  font-size: 15px;
+       }
+       .addons2 .descri1{
+        width: 80%;
+        left: 10%;
+        top: 86.5%;
+       }
+       .addons2 .descri1 h1{
+  font-size: 25px;
+       }
+       .addons2 .descri1 p{
+  font-size: 15px;
+       }
+       .addons2 .descri2{
+        width: 80%;
+        left: 10%;
+       }
+       .addons2 .descri2 h1{
+  font-size: 25px;
+       }
+       .addons2 .descri2 p{
+  font-size: 15px;
+       }
+       .descri3{
+        width: 80%;
+       left: 4%;
+       height: 60%;
+       }
+       .descri3 h1{
+  font-size: 25px;
+       }
+       .descri3 p{
+  font-size: 15px;
+       }
+       .descri4{
+        width: 80%;
+        left: 10%;
+        height: 55%;
+        top: 85%;
+       }
+       .descri4 h1{
+  font-size: 25px;
+       }
+       .descri4 p{
+  font-size: 15px;
+       }
+       .descri5{
+        width: 80%;
+        left: 10%;
+        top: 142%;
+        height: 60%;
+       }
+       .descri5 h1{
+  font-size: 25px;
+       }
+       .descri5 p{
+  font-size: 15px;
+       }
+       .bgmore2{
+        height: 145%;
+       }
+       .right{
+        left: -14%;
+       }
+       .footer{
+        top: 1360%;
+       }
+       
+       .footer span{
+        font-size: 10px;
+       }
+       #Twitch{
+        left: 44.3%;
+        width: 30%;
+        top: 29%;
+       }
+       .Formcalendar{
+        top: 1110%;
+       }
+       
+}
+@media (max-width: 360px)and (min-width:359px){
+  .carreblanc{
+    width: 80%;
+    justify-content: center;
+    left: 10%;
+    height: 80%;
+  }
+ .carre{
+  width: 80%;
+  left: 10%;
+ }
+ .container{
+  display: none;
+ }
+ #hover2{
+  display: none;
+ }
+ #hover1, #hover3{
+  width: 100%;
+  left: 10%;
+ }
+ .setups .descri{
+  width: 80%;
+  left: 10%;
+ }
+ .setups .descri h1{
+font-size: 25px;
+ }
+ .setups .descri p{
+font-size: 20px;
+ }
+ .setups .descri1{
+  width: 80%;
+  left: 10%;
+ }
+ .setups .descri1 h1{
+  font-size: 25px;
+       }
+       .setups .descri1 p{
+  font-size: 20px;
+       }
+ .setups .descri2{
+  width: 80%;
+  left: 10%;
+ }
+ .setups .descri2 h1{
+  font-size: 25px;
+       }
+       .setups .descri2 p{
+  font-size: 20px;
+       }
+       .addons2 .descri{
+        width: 80%;
+        left: 10%;
+       }
+       .addons2 .descri h1{
+  font-size: 25px;
+       }
+       .addons2 .descri p{
+  font-size: 15px;
+       }
+       .addons2 .descri1{
+        width: 80%;
+        left: 10%;
+       }
+       .addons2 .descri1 h1{
+  font-size: 25px;
+       }
+       .addons2 .descri1 p{
+  font-size: 15px;
+       }
+       .addons2 .descri2{
+        width: 80%;
+        left: 10%;
+       }
+       .addons2 .descri2 h1{
+  font-size: 25px;
+       }
+       .addons2 .descri2 p{
+  font-size: 15px;
+       }
+       .descri3{
+        width: 80%;
+       left: 4%;
+       }
+       .descri3 h1{
+  font-size: 25px;
+       }
+       .descri3 p{
+  font-size: 15px;
+       }
+       .descri4{
+        width: 80%;
+        left: 10%;
+       }
+       .descri4 h1{
+  font-size: 25px;
+       }
+       .descri4 p{
+  font-size: 15px;
+       }
+       .descri5{
+        width: 80%;
+        left: 10%;
+       }
+       .descri5 h1{
+  font-size: 25px;
+       }
+       .descri5 p{
+  font-size: 15px;
+       }
+       
+       .right{
+        left: -14%;
+       }
+     
+       
+       .footer span{
+        font-size: 10px;
+        left: 20%;
+       }
+       #Twitch{
+        left: 45%;
+        width: 30%;
+        top: 29%;
+       }
 }
