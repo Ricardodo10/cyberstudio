@@ -1401,18 +1401,7 @@ font-size: 20px;
    font-size: 15px;
   }
 }
-@media (max-width: 768px){
-  .left{
-    left: 13%;
-  }
-  .right{
-    right: 21%;
-  }
-  .footer span{
-    left: 27%;
 
-  }
-}
 @media (max-width: 1440px) and (min-width:1270px){
   .right{
     right: -125%;
@@ -1794,5 +1783,204 @@ font-size: 20px;
   }
   .footer span{
     left: 19%;
+  }
+}
+@media (max-width: 375px)and (max-height:812px) and (min-width:374px) and (min-height:811px){
+  .setups .descri1{
+    top: 90%;
+    height: 55%;
+  }
+  .setups .descri2{
+    top: 148%;
+    height: 60%;
+  }
+
+  .bgmore{
+    height: 120%;
+    top: 100%;
+    z-index: 2;
+  }
+  .addons{
+    top: 540%;
+  }
+  .addons2 .descri{
+    height: 55%;
+    width: 90%;
+    left: 5%;
+    top: 22%;
+  }
+  .addons2 .descri1{
+    top: 80%;
+    width: 90%;
+    left: 5%;
+    height: 55%;
+  }
+  .addons2 .descri2{
+    width: 90%;
+    left: 5%;
+    height: 55%;
+    top: 138%;
+  }
+  .bgmore1{
+    height: 105%;
+    z-index: 1;
+  }
+  .pricing{
+    top: 740%;
+  }
+  .descri3{
+    top: 20%;
+    height: 50%;
+  }
+  .descri4{
+    top: 73%;
+    height: 45%;
+  }
+  .descri5{
+    top: 120%;
+    height: 50%;
+  }
+  .bgmore2{
+    height: 115%;
+  }
+  .Formcalendar{
+    top: 1040%;
+  }
+  #Twitch{
+    top: 30.8%;
+    left: 44.5%;
+  }
+ 
+  .right iframe{
+    left: 19%;
+    width: 90%;
+  }
+  .logokbc p{
+    bottom: 0
+  }
+  .footer{
+    top: 1270%;
+  }
+  .footer span{
+    left: 19%;
+  }
+  #hover1{
+   top: 20%;
+   left: 8%;
+   width: 100%;
+
+  }
+  #hover3{
+    top: 20%;
+    left: 8%;
+    width: 100%;
+  }
+  .carreblanc{
+    height: 55%;
+    top: 22.5%;
+  }
+}
+@media (max-width: 360px)and (max-height:780px) and (min-width:359px) and (min-height:779px){
+  .setups .descri{
+    height: 60%;
+  }
+  .setups .descri1{
+    top: 97%;
+    height: 55%;
+  }
+  .setups .descri2{
+    top: 155%;
+    height: 60%;
+  }
+
+  .bgmore{
+    height: 120%;
+    top: 100%;
+    z-index: 2;
+  }
+  .addons{
+    top: 540%;
+  }
+  .addons2 .descri{
+    height: 55%;
+    width: 90%;
+    left: 5%;
+    top: 22%;
+  }
+  .addons2 .descri1{
+    top: 80%;
+    width: 90%;
+    left: 5%;
+    height: 55%;
+  }
+  .addons2 .descri2{
+    width: 90%;
+    left: 5%;
+    height: 55%;
+    top: 138%;
+  }
+  .bgmore1{
+    height: 105%;
+    z-index: 1;
+  }
+  .pricing{
+    top: 740%;
+  }
+  .descri3{
+    top: 20%;
+    height: 50%;
+  }
+  .descri4{
+    top: 73%;
+    height: 45%;
+  }
+  .descri4 button{
+    height: 10px;
+  }
+  .descri5{
+    top: 120%;
+    height: 50%;
+  }
+  .descri5 button{
+    height: 10px;
+  }
+  .bgmore2{
+    height: 115%;
+  }
+  .Formcalendar{
+    top: 1040%;
+  }
+  #Twitch{
+    top: 30.8%;
+    left: 44.5%;
+  }
+ 
+  .right iframe{
+    left: 19%;
+    width: 90%;
+  }
+  .logokbc p{
+    bottom: 0
+  }
+  .footer{
+    top: 1273%;
+  }
+  .footer span{
+    left: 19%;
+  }
+  #hover1{
+   top: 20%;
+   left: 8%;
+   width: 100%;
+
+  }
+  #hover3{
+    top: 20%;
+    left: 8%;
+    width: 100%;
+  }
+  .carreblanc{
+    height: 70%;
+    top: 15%;
   }
 }
